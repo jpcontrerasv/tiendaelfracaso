@@ -388,6 +388,10 @@ p {
   orphans: 3;
   widows: 3;
 }
+p b{
+	font-weight:700;
+}
+
 ul,
 ol,
 dl,
