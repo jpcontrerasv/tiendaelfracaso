@@ -417,7 +417,6 @@ blockquote {
   color: #39302d;
 }
 
-
 blockquote:before {
   content: "\201C";
   font-family: sans-serif;
