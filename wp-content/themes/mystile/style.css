@@ -391,7 +391,6 @@ p {
 p b{
 	font-weight:700;
 }
-
 ul,
 ol,
 dl,
@@ -417,6 +416,8 @@ blockquote {
   position: relative;
   color: #39302d;
 }
+
+
 blockquote:before {
   content: "\201C";
   font-family: sans-serif;
