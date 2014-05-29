@@ -584,8 +584,6 @@ ul.nav li a {
 /* 2.3 Header */
 #header {
   padding: 1.618em 0 0;
-  margin-bottom: 3.631em;
-  border-bottom: 4px double #e8e4e3;
   clear: both;
   position: relative;
 }
@@ -666,6 +664,10 @@ ul.nav li a {
 #header #navigation ul {
   float: none;
 }
+div#wrapper.parent div#content.col-full section#main.col-left h1 {
+	display:none;
+}
+
 /* 2.4 Content */
 /* 2.4.1 Slider */
 /* 2.5 Sidebar */
