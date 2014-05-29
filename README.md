@@ -1,4 +1,0 @@
-tiendaelfracaso
-===============
-
-Ponele onda.
