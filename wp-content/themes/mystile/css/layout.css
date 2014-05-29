@@ -610,8 +610,9 @@ INDEX
   }
   #sidebar {
     margin-top: 0;
-    width: 22.05%;
+    width: 25%;
     font-size: .857em;
+	margin-left:10px;
   }
   .entry:after {
     content: "\0020";
@@ -667,7 +668,7 @@ INDEX
   /* 7.2 Products */
   ul.products li.product {
     position: relative;
-    width: 22.05%;
+    width: 16%;
   }
   ul.products li.product:nth-child(2n) {
     margin-right: 3.8%;
