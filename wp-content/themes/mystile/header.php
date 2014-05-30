@@ -39,7 +39,8 @@ global $woo_options, $woocommerce;
 
 
 	<div id="top">
-		<nav class="col-full" role="navigation">
+    	<div class="logo-top box fleft"><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/marca-tienda-2.png" alt=""></a></div>
+		<nav class="box fleft" role="navigation">
 			<?php if ( function_exists( 'has_nav_menu' ) && has_nav_menu( 'top-menu' ) ) { ?>
 			<?php wp_nav_menu( array( 'depth' => 6, 'sort_column' => 'menu_order', 'container' => 'ul', 'menu_id' => 'top-nav', 'menu_class' => 'nav fl', 'theme_location' => 'top-menu' ) ); ?>
 			<?php } ?>
@@ -53,6 +54,10 @@ global $woo_options, $woocommerce;
 				}
 			?>
 		</nav>
+        
+        <div class="box fleft banner-gif">
+        	<img src="<?php bloginfo('template_url'); ?>/images/formato-banner.gif" alt="">
+        </div>
 	</div><!-- /#top -->
 
 
