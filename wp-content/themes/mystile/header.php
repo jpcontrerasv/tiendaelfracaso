@@ -39,7 +39,7 @@ global $woo_options, $woocommerce;
 
 
 	<div id="top">
-    	<div class="logo-top box fleft"><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/marca-tienda-2.png" alt=""></a></div>
+    	<div class="logo-top box fleft"><a href="<?php echo get_option('siteurl'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/marca-tienda-2.png" alt=""></a></div>
 		<nav class="box fleft" role="navigation">
 			<?php if ( function_exists( 'has_nav_menu' ) && has_nav_menu( 'top-menu' ) ) { ?>
 			<?php wp_nav_menu( array( 'depth' => 6, 'sort_column' => 'menu_order', 'container' => 'ul', 'menu_id' => 'top-nav', 'menu_class' => 'nav fl', 'theme_location' => 'top-menu' ) ); ?>
