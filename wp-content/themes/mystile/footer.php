@@ -44,9 +44,9 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 	
 		</section><!-- /#footer-widgets  -->
 	<?php } // End IF Statement ?>
-		<footer id="footer" class="col-full">
-	
-			<div id="copyright" class="col-left">
+		<footer id="footer" class="col-full text-center">
+			<p style="font-size:10px;"><?php bloginfo(); ?> &copy; <?php echo date( 'Y' ); ?>.</p>
+			<?php /*?><div id="copyright" class="col-left">
 			<?php if( isset( $woo_options['woo_footer_left'] ) && $woo_options['woo_footer_left'] == 'true' ) {
 	
 					echo stripslashes( $woo_options['woo_footer_left_text'] );
@@ -63,7 +63,7 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 	
 			} else { ?>
 				<p><?php _e( 'Powered by', 'woothemes' ); ?> <a href="<?php echo esc_url( 'http://www.wordpress.org' ); ?>">WordPress</a>. <?php _e( 'Designed by', 'woothemes' ); ?> <a href="<?php echo ( isset( $woo_options['woo_footer_aff_link'] ) && ! empty( $woo_options['woo_footer_aff_link'] ) ? esc_url( $woo_options['woo_footer_aff_link'] ) : esc_url( 'http://www.woothemes.com' ) ) ?>"><img src="<?php echo esc_url( get_template_directory_uri().'/images/woothemes.png' ); ?>" width="74" height="19" alt="Woo Themes" /></a></p>
-			<?php } ?>
+			<?php } ?><?php */?>
 			</div>
 	
 		</footer><!-- /#footer  -->

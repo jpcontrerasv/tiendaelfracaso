@@ -515,7 +515,6 @@ ul.nav li a {
 #top {
   background: #f7f7f7;
   margin: 0 -1.618em;
-  padding: 1.618em;
 }
 #top:after {
   content: "\0020";
